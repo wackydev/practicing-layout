@@ -12,6 +12,14 @@
   margin-left: -15px;
   margin-right: -15px;
 }
+.row:before,
+.row:after {
+  content: '';
+  display: table;
+}
+.row:after {
+  clear: both;
+}
 [class*='grid-'] {
   float: left;
   padding-left: 15px;
@@ -78,6 +86,9 @@
   .grid-lg-5 {
     width: 41.666%
   }
+  .offset-lg-5 {
+    margin-left: 41.666%;
+  }
   .grid-lg-4 {
     width: 33.333%;
   }
@@ -87,7 +98,14 @@
   .grid-lg-2 {
     width: 16.666%;
   }
+  .offset-lg-2 {
+    margin-left: 16.666%
+  }
   .grid-lg-1 {
     width: 08.333%;
   }
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
 }

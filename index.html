@@ -31,13 +31,74 @@
             </ul>
           </nav>
         </div>
-        <div class="grid-sm-12 grid-lg-1 pull-right">
-          <i class="fas fa-shopping-cart"></i>
+        <div class="grid-sm-12 grid-lg-1 offset-lg-2 text-right">
+          <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
-  
+  <section class="slider">
+    <ul class="rslides">
+      <li>
+        <img class="img-responsive" src="https://www.bannerbatterien.com/upload/filecache/Banner-Batterien-Windrder2-web_bd5cb0f721881d106522f6b9cc8f5be6.jpg" alt="">
+        <div class="slider-content">
+          <div class="container">
+            <div class="row">
+              <div class="grid-sm-12">
+                <h1>NEW SEASON ARRIVALS.</h1>
+                <h2>CHECK OUT ALL THE NEW TRENDS</h2>
+                <a href="#" class="slider-btn">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <img class="img-responsive" src="https://pixabay.com/get/ef3cb10f2cfc1c22d9584518a33219c8b66ae3d01db112489cf1c47a/business-suit-690048_1920.jpg" alt="">
+        <div class="slider-content">
+          <div class="container">
+            <div class="row">
+              <div class="grid-sm-12">
+                <h1>NEW SEASON ARRIVALS.</h1>
+                <h2>CHECK OUT ALL THE NEW TRENDS</h2>
+                <a href="#" class="slider-btn">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <img class="img-responsive" src="https://pixabay.com/get/e835b00b2df7083ed1534705fb0938c9bd22ffd41cb511429cf9c171a1/banner-1014539_1920.jpg" alt="">
+        <div class="slider-content">
+          <div class="container">
+            <div class="row">
+              <div class="grid-sm-12">
+                <h1>NEW SEASON ARRIVALS.</h1>
+                <h2>CHECK OUT ALL THE NEW TRENDS</h2>
+                <a href="#" class="slider-btn">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+<script src="js/responsiveslides.min.js"></script>
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+      auto: false,
+      pager: true,
+    });
+  });
+</script>
+
 </body>
 </html>
