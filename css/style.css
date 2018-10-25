@@ -4,8 +4,9 @@ html {
 body {
   background-color: #fdfdfd;
 }
-header {
+#header {
   padding-top: 50px;
+  margin-bottom: 30px;
 }
 .logo,
 .primary-nav,
@@ -50,8 +51,41 @@ header {
   width: 100%;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: yellow;
 }
+.slider-main-title,
+.slider-sub-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+.slider-main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.slider-sub-title {
+  font-size: 1.375rem;
+  font-weight: 300;
+  letter-spacing: 2.45px;
+  margin-bottom: 40px;
+}
+.slider-btn {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: #65889b;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 20px 50px;
+  display: inline-block;
+  transition: all .5s ease-in-out;
+}
+.slider-btn:hover{
+  background-color: #65889b;
+  color: #fff;
+}
+
 
 
 /*slider's css*/
@@ -83,5 +117,68 @@ header {
   float: left;
   width: 100%;
   border: 0;
+}
+.main-content {
+  padding-top: 60px;
+}
+.section-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  color: #656363;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.product-row {
+	margin-bottom: 60px;
+}
+.product {
+  border: 4px solid #f7f6f6;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+}
+.discount-tag {
+  background-color: #f54d56;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+	padding: 15px;
+	border-left: 4px solid #de3841;
+	top: 30px;
+	left: -4px;
+
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.product-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1rem;
+  color: #717171;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.price {
+  font-family: 'Open sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #717171;
+}
+.price sup {
+  font-size: 50%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
 }
 
